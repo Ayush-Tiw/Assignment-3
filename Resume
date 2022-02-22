@@ -1,0 +1,63 @@
+Question-Create your own resume data in JSON format
+
+Answer-
+
+{
+    "basics": {
+      "name": "Ayush Tiwari",
+      "email": "ayushtiwari782@gmail.com",
+      "phone": "9755542311",
+      "degree": "Bachelor of engineering in Electrical Engineering",
+      "location": {
+        "address": "Iti road,ishan parisar",
+        "pinCode": "461001",
+        "city": "Hoshangabad",
+        "countryCode": "+91",
+        "region": "Madhya Pradesh"
+      },
+      "profiles": [
+        {
+          "network": "Linkedin",
+          "username": "Ayush Tiwari",
+          "url": "https://www.linkedin.com/in/ayush-tiwari-145172228"
+        }
+      ]
+    },
+
+    
+    "education": [
+      {
+        "institution": "Vikram University",
+        "area": "Ujjain (Madhya Pradesh)",
+        "startDate": "2016-08-26",
+        "endDate": "2020-12-28",
+        "cgpa": "8.20",
+        "courses": [
+          "Bachelor of engineering in Elecrical Engineering"
+        ]
+      }
+    ],
+   
+    "skills": [
+      {
+        "name": "Full Stack Developer,
+        "level": " Fresher",
+        "keywords": [
+          "HTML,CSS,Javascript,NodeJS"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "English,Hindi",
+        "fluency": "English,Hindi"
+      }
+    ],
+    "interests": [
+      {
+        "name": "Sports",
+        "keywords": [
+          "Cricket"
+        ]
+      }
+    ]
