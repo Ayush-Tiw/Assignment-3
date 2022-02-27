@@ -1,0 +1,70 @@
+
+//  Question-2) Create your own resume data in JSON format 
+
+// Answer- Sample Resume in JSON Resume Format 
+
+{
+  "basics": {
+    "name": "Ayush Tiwari",
+    "email": "at5683456@gmail.com",
+    "phone": "6263517858",
+    "degree": "Bachelor degree in Electrical Engineering",
+    "location": {
+      "address": "Iti road,ishan parishar,phase-3,tulsidham colony",
+      "postalCode": "461001",
+      "city": "Hoshangabad",
+      "countryCode": "+91",
+      "region": "Madhya Pradesh"
+    },
+
+"education": [
+    {
+      "institution": "Vikram University",
+      "area": "Bachelor of Engineering",
+      "startDate": "2016-08-28",
+      "endDate": "2020-12-27",
+      "cgpa": "8.20",
+      "courses": [
+        "Bachelor of Engineering in Electrical in Engineering"
+      ]
+    },
+    {
+        "institution": "Sunrise Higher Secondary Public School",
+        "area": "Higher Secondary Certificate",
+        "startDate": "2015-04-21",
+        "endDate": "2016-03-12",
+        "percentage": "77%"
+    },
+    {
+        "institution": "Samaritans Higher Secondary School",
+        "area": "Secondary School Certificate",
+        "startDate": "2013-04-13",
+        "endDate": "2014-02-17",
+        "cgpa": "9.80"
+    }
+  ],  
+  
+  "skills": [
+    {
+      "name": "Full Stack Developer",
+      "level": "Fresher",
+      "keywords": [
+        "HTML,CSS,Javascript,NodeJS"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English,Hindi",
+      "fluency": "English,Hindi"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Sports",
+      "keywords": [
+        "Cricket"
+      ]
+    }
+  ]
+}
