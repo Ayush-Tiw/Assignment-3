@@ -1,0 +1,71 @@
+//  Question-2) Create your own resume data in JSON format
+
+// Answer- Sample Resume in JSON Resume Format
+//Lets create an array of object
+
+let personalDetails = [
+  {
+    basicDetails: {
+      name: "Ayush Tiwari",
+      email: "at5683456@gmail.com",
+      phone: 6263517858,
+      eductionQualification: "Bachelor degree in Electrical Engineering",
+      location: {
+        address: "Iti road,ishan parishar,phase-3,tulsidham colony",
+        postalCode: 461001,
+        city: "Hoshangabad",
+        countryCode: "+91",
+        state: "Madhya Pradesh",
+      },
+    },
+  },
+  {
+    education: [
+      {
+        institution: "Vikram University",
+        course: "Bachelor of Engineering in Electrical Engineering",
+        yearOfPassing: 2020,
+        cgpa: 8.2,
+      },
+      {
+        institution: "Sunrise Higher Secondary Public School",
+        course: "Higher Secondary Certificate(12th)",
+        yearOfPassing: 2016,
+        cgpa: 7.7,
+      },
+      {institution: "Samaritans Higher Secondary School",
+      course:"Secondary School Certificate(10th)",
+      yearOfPassing:2020,
+      cgpa: 9.8,}
+    ],
+  },
+  {
+    skills: {
+      name: "Full Stack Developer",
+      level: "Fresher",
+      keywords: "HTML,CSS,Javascript,NodeJS",
+    },
+  },
+
+  {
+    languagesKnown: {
+      language: "English,Hindi",
+      fluency: "English,Hindi",
+    },
+  },
+  {
+    interests: {
+      name: "Sports",
+      keywords: "Cricket",
+    },
+  },
+];
+
+console.log(personalDetails);// to get whole resume data
+
+console.log(personalDetails[2]);//to get any particular object by mentioning index of that particular array
+
+//to find partical thing from an object,like if want to find name of candidate
+console.log(personalDetails[0].basicDetails.name)
+
+console.log(personalDetails[1].education[0])
